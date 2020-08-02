@@ -25,13 +25,13 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
 
     
     @IBAction func searchButtonPressed(_ sender: UIButton) {
-        print(searchTextField.text!)
+        //print(searchTextField.text!)
     }
     
     
     //text of textField will also be set if the user hits return
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        print(searchTextField.text!)
+        //print(searchTextField.text!)
         //confirm that user is done editing -> dismiss keyboard
         searchTextField.endEditing(true)
         return true
