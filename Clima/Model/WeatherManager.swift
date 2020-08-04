@@ -24,6 +24,11 @@ struct WeatherManager {
         performRequest(urlString: urlString)
     }
     
+    func fetchWeather (latitude: Double, longitude: Double) {
+        let urlString = "\(weatherURL)&lat=\(Int(latitude))&lon=\(Int(longitude))"
+        performRequest(urlString: urlString)
+    }
+    
     func performRequest(urlString: String) {
         //1.Creat URL
         if let url = URL (string: urlString) {
