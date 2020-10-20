@@ -19,7 +19,7 @@ Climate is an iOS application that fetches live weather data from OpenWeather AP
 - iOS 13.0+
 - Xcode 11
 
-[swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
+[swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
