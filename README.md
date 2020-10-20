@@ -6,7 +6,7 @@
 
 Climate is an iOS application that fetches live weather data from OpenWeather API from any city and also presents user with weather data from their current location.
 
-![](header.png)
+![](Documentation/screenshotLightMode)
 
 ## Features
 
